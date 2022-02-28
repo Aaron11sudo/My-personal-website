@@ -1,0 +1,84 @@
+body {
+    background: -webkit-linear-gradient(right, #40e0d0, #ff8c00, #ff0080);
+}
+  
+.iaaa {
+    color: black;
+    font-style: italic;
+    background: yellow;
+}
+  
+.iaaa:hover {
+    color: blue;
+}
+  
+.bhw {
+    color: white;
+    background: blue;
+    border: hidden;
+    text-decoration: none;
+    font-size: 15.0px;
+    font-weight: bolder;
+    margin: 5.0px;
+}
+  
+.bhw:hover {
+    color: black;
+    background: white;
+    text-decoration: none;
+    font-size: 20.0px;
+    font-weight: lighter;
+    border: hidden;
+}
+.ctwius {
+    color: red;
+    background: black;
+    font-size: larger;
+    font-weight: bolder;
+    font-style: italic;
+}
+.ctwius:hover {
+    color: black;
+    background: red;
+    font-size: larger;
+    font-weight: lighter;
+    font-style: normal;
+}
+.bh {
+  color: brown;
+  font-weight: bold;
+}
+.bh:hover {
+  color: blueviolet;
+  font-weight: normal;
+}
+
+.msml {
+    background: lightgreen;
+}
+
+.msml:hover {
+    background: darkgreen;
+
+}
+
+.myinfo {
+    background: lightblue;
+}
+
+.myinfo:hover {
+    background: blue;
+}
+
+.fun {
+    background: orangered;
+}
+
+.fun:hover {
+    background: red;
+}
+
+.ooc {
+    color: black;
+    font-weight: bold;
+}
