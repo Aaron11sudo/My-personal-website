@@ -1,5 +1,7 @@
 body {
     background: -webkit-linear-gradient(right, #40e0d0, #ff8c00, #ff0080);
+    cursor: url(cursor.cur), auto;
+    scroll-behavior: smooth;
 }
   
 .iaaa {
