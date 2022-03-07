@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="style.css">
         <script src="script.js"></script>
     </head>
-    <body id ="htmlbody">
+    <body id ="htmlbody" class="htmlbody">
         <h1 class="ctwius">CAUTION ! This website is under construction</h1>
         <h1 class="iaaa">I am Aaron Abraham</h1>
         <div class="maincont">
@@ -32,13 +32,30 @@
             <input type="button" value="What is the name of the creator of this website" class="bhw" onclick="browser_send_message('Aaron Abraham')">
         </div>
         <div class="maincont">
-            <h2 class="bh">Contact me</h2>
-            <h3 class="ooc">Conatact me via my e-mail adress</h3>
+            <h2 class="bh">Contact me via my email adress</h2>
             <button class="bhw"><a class="bhw" href="mailto:aaronabraham91@gmail.com">Send an e-mail</a></button>
         </div>
+        <div class="contmeform">
+            <h2 class="bh">Contact me via this form</h2>
+            <form id="htmcontmeformname" data-netlify="true">
+                <label for="name" class="htmlab htmformcont">What is your name?</label>
+                <br>
+                <input type="text"  placeholder="Enter your name" id="name" class="htmforminp htmlformcont">
+                <br>
+                <label for="email" class="htmlab htmformcont">What is your e-mail?</label>
+                <br>
+                <input type="text"  placeholder="Enter your e-mail" id="email" class="htmforminp htmlformcont">
+                <br>
+                <label for="message" class="htmlab htmformcont">What is your message?</label>
+                <br>
+                <textarea name="message" cols="30" rows="10" class="htmformtxt" form="htmcontmeformname" placeholder="What is your message?"></textarea>
+                <br>
+                <input type="submit" class="htmforminp" form="htmcontmeformname">
+        </form>
+        </div>
         <footer class="footerhtml">
-            <p>Version 1.13</p>
-            <p>Style Update</p>
+            <p>Version 7.18</p>
+            <p>Form Update(Beta)</p>
         </footer>
     </body>
 </html>
