@@ -1,4 +1,6 @@
-#htmlbody {
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@668&display=swap');
+
+.htmlbody {
     background-image: linear-gradient(314deg, rgb(20, 222, 124) 0%, rgb(20, 222, 124) 21%,rgb(25, 190, 119) 21%, rgb(25, 190, 119) 37%,rgb(30, 158, 113) 37%, rgb(30, 158, 113) 46%,rgb(35, 126, 108) 46%, rgb(35, 126, 108) 53%,rgb(39, 94, 103) 53%, rgb(39, 94, 103) 59%,rgb(44, 62, 97) 59%, rgb(44, 62, 97) 77%,rgb(49, 30, 92) 77%, rgb(49, 30, 92) 100%);
     scroll-behavior: smooth;
 }
@@ -82,4 +84,33 @@
 .footerhtml {
     color: white;
     background-color: black;
+}
+
+.contmeform {
+    padding: 27.0px;
+    background-image: repeating-radial-gradient(circle at center center, transparent 0.0px, transparent 8.0px,rgba(255.0,255.0,255.0,0.05) 8.0px, rgba(255.0,255.0,255.0,0.05) 11.0px,transparent 11.0px, transparent 17.0px,rgba(255.0,255.0,255.0,0.05) 17px, rgba(255.0,255.0,255,0.05) 25.0px,transparent 25.0px, transparent 38px,rgba(255,255,255,0.05) 38px, rgba(255,255,255,0.05) 42px),repeating-radial-gradient(circle at center center, rgb(0,0,0) 0px, rgb(0,0,0) 11px,rgb(0,0,0) 11px, rgb(0,0,0) 19px,rgb(0,0,0) 19px, rgb(0,0,0) 24px,rgb(0,0,0) 24px, rgb(0,0,0) 33px,rgb(0,0,0) 33px, rgb(0,0,0) 44px,rgb(0,0,0) 44px, rgb(0,0,0) 46px); background-size: 60px 60px;
+}
+
+.htmlab {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 40.0px;
+}
+
+.htmlformcont {
+    margin: 25.1px;
+}
+
+.htmforminp {
+    font-size: 20.0px;
+    color: black;
+    background: linear-gradient(to right,#44e954,#50a0dc);
+    border-radius: 50.0px;
+}
+
+.htmformtxt {
+    font-size: 20.0px;
+    color: black;
+    background: linear-gradient(to right,#44e954,#50a0dc);
+    border-radius: 5.0px;
 }
